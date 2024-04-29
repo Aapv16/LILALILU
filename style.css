@@ -40,6 +40,9 @@ body {
   z-index: 9999;
 }
 
+#logohp {
+  display: none;
+}
 .navbar-logo {
   display: inline-block;
   font-size: 1.5rem;
@@ -1156,16 +1159,66 @@ footer .credit p {
     width: fit-content;
     font-size: 50%;
   }
+  .hero .box {
+    display: flexbox;
+    align-items: center;
+    background-color: #dddddd;
+    width: 40rem;
+    height: 60rem;
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  .navbar .navbar-logo {
+    font-size: 14px;
+    width: 300px;
+    margin-right: 2rem;
+  }
+  .hero .box .content {
+    display: grid;
+    align-items: center;
+    margin: -3rem 6rem 6rem -2rem;
+  }
+  .hero .logo {
+    display: none;
+    margin-top: 3rem;
+  }
+  #logohp {
+    display: grid;
+    border-radius: 100px 100px 100px 100px;
+    position: initial;
+    margin-left: 7rem;
+    background-color: #2fc7ff;
+    border: 1.5px solid #272727;
+    width: 20rem;
+    height: 20rem;
+    margin-top: auto;
+    position: relative;
+  }
+  #alert {
+    height: 72rem;
+  }
+  .alert .popup-alert {
+    height: 14rem;
+    width: 20rem;
+  }
+  .data-feather {
+    size: 1px;
+  }
+  .alert .popup-alert-content {
+    display: grid;
+    width: 70rem;
+    height: 5rem;
+  }
 
   #menu {
-    display: inline-block;
+    display: grid;
   }
+
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
     right: -100%;
-    width: 40rem;
-    background-color: #d2d2d2;
+    width: 20rem;
+    background-color: #fefefeb0;
     height: 100vh;
     transition: ease-in-out 0.3s;
   }
@@ -1174,17 +1227,118 @@ footer .credit p {
     font-size: 10px;
   }
   .hero .box .content .kalkulator {
-    width: 10rem;
-    font-size: 1rem;
+    width: 11rem;
+    font-size: 1.5rem;
   }
   .logo img {
     width: 20rem;
   }
   .hero .box .content p {
-    font-size: 5px;
+    font-size: 8px;
   }
   .navbar-logo span {
     display: inline-block;
     width: 4rem;
   }
+  /*--------panduan-------*/
+  #Panduan {
+  }
+  .about .main-container .grid-3 .service {
+    display: grid;
+    text-align: center;
+    width: 40rem;
+  }
+  .about .main-container .grid-3 .popup-container {
+    display: grid;
+    width: 40rem;
+    margin-bottom: 40rem;
+   
+
+  }
+  .about .main-container .grid-3 .popup-content .popup-content-detail{
+   
+    display:flex;
+    align-items: center;
+    margin-left: 6rem;
+    text-align:justify;
+    width: 75rem;
+  }
+  .about .service .popup-container2 {
+    display: grid;
+    width: 40rem;
+    height: 40rem;
+    margin-bottom: 45rem;
+  }
+  .about .service .popup-container2 .popup-content2 .popup-content-detail2  {
+    display: grid;
+    text-align: justify;
+    align-items: center;
+    width: 500rem;
+
+
+  }
+  .about .service .popup-container2  .popup-content2 .popup-content-detail2{
+    display:flex;
+    align-items: center;
+    margin-left: 6rem;
+    text-align:justify;
+    width: 75rem;
+  }
+
+  .about .service .popup-container3 {
+
+    display: flex;
+    width: 40rem;
+    margin-top: -30rem;
+    margin-bottom: 3rem;
+  
+
+  }
+  .about .service .popup-container3 .popup-content3 .popup-content-detail3 {
+    
+    display: flex;
+    text-align: justify;
+    margin-left: 1.5rem;
+    width: 80rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }  
+
+  .info .about.main-container .grid-3 .service .popup-container-formula {
+    display: grid;
+    margin: auto;
+    text-align: justify;
+    align-items: center;
+    width: 45rem;
+  }
+  .info .about.main-container .grid-3 .service .close-icon-formula {
+    margin-bottom: 23rem;
+  }
+
+
+  .about .main-container .grid-3 .service img {
+
+   
+  }
+  .about .main-container .grid-3 .service h4 {
+
+  }
+  .about .main-container .grid-3 .service .cta {
+    display: none;
+  }
+  #info {
+  }
+  .info .about.main-container .grid-3 .service {
+  
+    display: grid;
+    text-align: center;
+    width: 40rem;
+  }
+  .info .about.main-container .grid-3 .service .cta {
+    display: none;
+
 }
+.info .main-container .grid-3 .service img {
+
+}
+
