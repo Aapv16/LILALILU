@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* agar tidak perlu ditaur agi dimensi di elem saat atur pading atau margin */
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e5e2e2ba;
+  color: rgb(0, 0, 0);
+  /*min-height: 2000px;*/
+}
+
+.main-container {
+  display: grid;
+  margin: auto;
+  height: 30rem;
+  width: 15rem;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 221, 3);
+  box-shadow: 1px 5px 10px #31313188;
+}
+.gender {
+  display: flex;
+  margin: 2rem auto;
+}
+#pria,
+#pria1 {
+  margin: auto 0.8rem;
+}
+#wanita,
+#wanita1 {
+  margin: auto 0.8rem;
+}
+
+.input input {
+  border: px solid #1f0d0d;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 15px;
+  width: 14rem;
+  height: 2rem;
+  background-color: rgb(228, 228, 228);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(109, 109, 108);
+}
+
+.input .judul {
+  margin-top: 2rem;
+}
+
+.input .judul2 {
+  margin-top: 2rem;
+}
+
+button {
+  display: inline-block;
+  align-items: center;
+  width: 5rem;
+  height: 2rem;
+  margin: 1rem;
+  background-color: rgba(92, 190, 240, 0.965);
+  overflow: auto;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 1px 5px 10px #0000003c;
+  box-sizing: border-box;
+}
+
+.hasil {
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+}
+#hasil,
+#hasil1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+#kriteria {
+  font-size: 12px;
+}
