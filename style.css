@@ -1194,7 +1194,7 @@ footer .credit p {
     position: relative;
   }
   #alert {
-    height: 100rem;
+    height: 100vh;
   }
   .alert .popup-alert {
     height: 14rem;
