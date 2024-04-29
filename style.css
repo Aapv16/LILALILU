@@ -1194,15 +1194,16 @@ footer .credit p {
     position: relative;
   }
   #alert {
-    height: 72rem;
+    height: 100rem;
   }
   .alert .popup-alert {
     height: 14rem;
     width: 20rem;
+    margin-top: -10rem;
   }
   .data-feather {
     size: 1px;
-  }
+  }git
   .alert .popup-alert-content {
     display: grid;
     width: 70rem;
