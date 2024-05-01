@@ -10,7 +10,7 @@ submit.addEventListener("click", function () {
   }
 
   if (pria.checked == true) {
-    let submit = 2.8 * LILA + 1.2 * TILU - 1.25 * 1 - 75.1;
+    let submit = 2.8 * LILA + 1.2 * TILU - 1.25 * 2 - 75.1;
     submit = submit.toFixed(2);
     if (submit < 60) {
       submit = submit + " <br> <h4>Under weight</h4> </br> ";
@@ -22,7 +22,7 @@ submit.addEventListener("click", function () {
     document.querySelector("#hasil").innerHTML = submit;
     return;
   } else if (wanita.checked == true) {
-    let submit = 2.8 * LILA + 1.2 * TILU - 1.25 * 2 - 75.1;
+    let submit = 2.8 * LILA + 1.2 * TILU - 1.25 * 1 - 75.1;
     submit = submit.toFixed(2);
     if (submit < 60) {
       submit = submit + " <br> Under weight </br> ";
